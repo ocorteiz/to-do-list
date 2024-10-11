@@ -1,0 +1,23 @@
+:host {
+  width: 100%;
+
+  h1 {
+    font-size: 18px;
+    margin: 12px 0;
+    color: var(--white);
+    text-align: center;
+  }
+
+  .has-itens {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 2px solid var(--black-010);
+  }
+
+  .margin-botton-label {
+    margin-bottom: 0;
+  }
+}
